@@ -1,0 +1,353 @@
+/*
+    # NOAH UI KIT: Media Screen Selection
+    # Company Owner: Forecasting and Planning Technologies Inc. | NOAH Business Applications | PROMPTUS 8
+    # Developer : Alvin Diaz Benedicto
+    # Designer : Alvin Diaz Benedicto
+    # Date Created : July 10, 2020
+    # Date Modified : July 10, 2020 | ADB
+*/
+
+/*
+    Settings for different screen types
+*/
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    .nk [class*="col-"]:not(.col-dev) {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .nk .col.col-mob-1,
+    .nk .col.col-tab-1 {
+        width: 8.3333333333%;
+        flex: 0 0 8.3333333333%;
+    }
+    .nk .col.col-mob-2,
+    .nk .col.col-tab-2 {
+        width: 16.6666666667%;
+        flex: 0 0 16.6666666667%;
+    }
+    .nk .col.col-mob-3,
+    .nk .col.col-tab-3 {
+        width: 25%;
+        flex: 0 0 25%;
+    }
+    .nk .col.col-mob-4,
+    .nk .col.col-tab-4 {
+        width: 33.3333333333%;
+        flex: 0 0 33.3333333333%;
+    }
+    .nk .col.col-mob-5,
+    .nk .col.col-tab-5 {
+        width: 41.6666666667%;
+        flex: 0 0 41.6666666667%;
+    }
+    .nk .col.col-mob-6,
+    .nk .col.col-tab-6 {
+        width: 50%;
+        flex: 0 0 50%;
+    }
+    .nk .col.col-mob-7,
+    .nk .col.col-tab-7 {
+        width: 58.3333333333%;
+        flex: 0 0 58.3333333333%;;
+    }
+    .nk .col.col-mob-8,
+    .nk .col.col-tab-8 {
+        width: 66.6666666667%;
+        flex: 0 0 66.6666666667%;
+    }
+    .nk .col.col-mob-9,
+    .nk .col.col-tab-9 {
+        width: 75%;
+        flex: 0 0 75%;
+    }
+    .nk .col.col-mob-10,
+    .nk .col.col-tab-10 {
+        width: 83.3333333333%;
+        flex: 0 0 83.3333333333%;
+    }
+    .nk .col.col-mob-11,
+    .nk .col.col-tab-11 {
+        width: 91.6666666667%;
+        flex: 0 0 91.6666666667%;
+    }
+    .nk .col.col-mob-12,
+    .nk .col.col-tab-12 {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .nk .row.row-parent.row-default-mob {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .nk .col .lbltxt {
+        text-indent: 2px;
+        margin: 1px 0;
+    }
+    .nk .col .txtbox,
+    .nk .col .txtbox-date,
+    .nk .col .txtbox-time {
+        margin-bottom: 1px;
+    }
+    .nk [class*="col-"]:not(.col-dev) {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .nk .col.col-mob-1,
+    .nk .col.col-tab-1 {
+        width: 8.3333333333%;
+        flex: 0 0 8.3333333333%;
+    }
+    .nk .col.col-mob-2,
+    .nk .col.col-tab-2 {
+        width: 16.6666666667%;
+        flex: 0 0 16.6666666667%;
+    }
+    .nk .col.col-mob-3,
+    .nk .col.col-tab-3 {
+        width: 25%;
+        flex: 0 0 25%;
+    }
+    .nk .col.col-mob-4,
+    .nk .col.col-tab-4 {
+        width: 33.3333333333%;
+        flex: 0 0 33.3333333333%;
+    }
+    .nk .col.col-mob-5,
+    .nk .col.col-tab-5 {
+        width: 41.6666666667%;
+        flex: 0 0 41.6666666667%;
+    }
+    .nk .col.col-mob-6,
+    .nk .col.col-tab-6 {
+        width: 50%;
+        flex: 0 0 50%;
+    }
+    .nk .col.col-mob-7,
+    .nk .col.col-tab-7 {
+        width: 58.3333333333%;
+        flex: 0 0 58.3333333333%;;
+    }
+    .nk .col.col-mob-8,
+    .nk .col.col-tab-8 {
+        width: 66.6666666667%;
+        flex: 0 0 66.6666666667%;
+    }
+    .nk .col.col-mob-9,
+    .nk .col.col-tab-9 {
+        width: 75%;
+        flex: 0 0 75%;
+    }
+    .nk .col.col-mob-10,
+    .nk .col.col-tab-10 {
+        width: 83.3333333333%;
+        flex: 0 0 83.3333333333%;
+    }
+    .nk .col.col-mob-11,
+    .nk .col.col-tab-11 {
+        width: 91.6666666667%;
+        flex: 0 0 91.6666666667%;
+    }
+    .nk .col.col-mob-12,
+    .nk .col.col-tab-12 {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .nk .row.row-parent.row-default-mob {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    .nk .row.row-parent.row-col-default > .row {
+        display: block;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .nk .col.col-tab-4,
+    .nk .col.col-mob-4 {
+        width: 33.3333333333%;
+    }
+    .nk .col.col-mob-1,
+    .nk .col.col-tab-1 {
+        width: 8.3333333333%;
+    }
+    .nk .col.col-mob-2,
+    .nk .col.col-tab-2 {
+        width: 16.6666666667%;
+    }
+    .nk .col.col-mob-3,
+    .nk .col.col-tab-3 {
+        width: 25%;
+    }
+    .nk .col.col-mob-4,
+    .nk .col.col-tab-4 {
+        width: 33.3333333333%;
+    }
+    .nk .col.col-mob-5,
+    .nk .col.col-tab-5 {
+        width: 41.6666666667%;
+    }
+    .nk .col.col-mob-6,
+    .nk .col.col-tab-6 {
+        width: 50%;
+    }
+    .nk .col.col-mob-7,
+    .nk .col.col-tab-7 {
+        width: 58.3333333333%;
+    }
+    .nk .col.col-mob-8,
+    .nk .col.col-tab-8 {
+        width: 66.6666666667%;
+    }
+    .nk .col.col-mob-9,
+    .nk .col.col-tab-9 {
+        width: 75%;
+    }
+    .nk .col.col-mob-10,
+    .nk .col.col-tab-10 {
+        width: 83.3333333333%;
+    }
+    .nk .col.col-mob-11,
+    .nk .col.col-tab-11 {
+        width: 91.6666666667%;
+    }
+    .nk .col.col-mob-12,
+    .nk .col.col-tab-12 {
+        width: 100%;
+    }
+    .nk .row.row-parent.row-default-mob {
+        width: 82%;
+    }
+    .nk .row.row-parent.row-col-default > .row {
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .nk .container {
+        max-width: 992px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1201px) {
+    .nk .container {
+         width: 94%;
+         max-width: 1330px;
+    }
+}
+
+/* NOAH Standard Screen Breakpoint */
+@media (max-width: 800px) {
+    .nk .table thead th, .nk .table thead tr {
+        display: none;
+    }
+    
+    .nk .table .tbl-row-num, .nk .table td {
+        display: table;
+        width: 100% !important;
+        max-width: 100% !important;
+        padding-right: 4px !important;
+        padding-left: 4px !important;
+        position: relative;
+        text-align: left !important;
+        /* min-height: 28px; */
+        height: 100%;
+        padding: 2px;
+    }
+    
+    .nk .table tr {
+        border: 1px solid #cfd5da !important;
+        border-radius: 3px;
+        display: block;
+        margin-bottom: 6px;
+        padding: 2px;
+    }
+    
+    .nk .table tr:last-of-type {
+        margin-bottom: 0;
+    }
+    .nk .table .tbl-row-num:before,
+    .nk .table td:before {
+        content: attr(row-th);
+        font-weight: bold;
+        color: #000000;
+        text-align: left;
+        width: 30%;
+        padding-right: 6px;
+        padding-left: 4px;
+        padding-top: 2px;
+        overflow: hidden;
+        height: 100%;
+        vertical-align: top;
+        line-height: 20px;
+        max-width: 180px;
+        display: table-cell;
+    }
+    .nk .table .tbl-row-num:before {
+        color: #2ca5b1;
+    }
+
+    .nk .table .tbl-row-selector:before {
+        line-height: 26px;
+    }
+
+    .nk td.tbl-row-selector .chk-without-text .chk + .lbl-chk {
+        margin-left: -10px;
+    }
+
+    .nk .table .tbl-row-selector {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .nk .table td .chk-wrapper.chk-without-text {
+        display: inline-block;
+        text-align: left;
+    }    
+    .nk .table td .wrap-td,
+    .nk .table th .wrap-td {
+        vertical-align: top;
+        padding-left: 4px;
+        padding-right: 4px;
+        width: 70%;
+        line-height: 20px;
+        white-space: normal;
+        height: 100%;
+        display: table-cell;
+        padding-top: 2px;
+    }
+    .nk .table tr.selected {
+        border-color: #2575c4 !important;
+    }
+    .nk .table tr.selected .tbl-row-num {
+        color: #222222;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
